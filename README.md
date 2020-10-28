@@ -121,6 +121,29 @@ Vamos ver um exemplo. Se a nossa Realtime Database tiver 2 nós: animes e posts.
 
  Podemos definir regras diferentes para estes nós, basta criar 2 sub-nós em “rules”:      
 
+    ```
+    {
+      “rules”:{
+           “utilizadores”:{
+                 “.write”:”auth!=uid”,
+                 “.read”:”auth!=uid”
+          },
+           “mensagens”:{  
+                 “.write”:”auth!=uid”,   
+                 “.read”: true
+                }
+            }
+         }
+```
+        
+
+            
+
+            
+
+        
+
     
+
 
 
