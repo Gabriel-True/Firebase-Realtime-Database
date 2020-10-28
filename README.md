@@ -80,7 +80,9 @@ As regras de validação têm acesso às mesmas funções e variáveis incorpora
   
 ### Como definir índices de banco de dados
 
+No Firebase Realtime Database, ordene e consulte dados. Para pequenos volumes de dados, é possível fazer consultas ad hoc no banco de dados. Por isso, os índices geralmente não são necessários durante o desenvolvimento. Antes de lançar o app, é importante especificar índices para todas as consultas existentes. Isso garante que elas continuem funcionando mesmo com o aumento do volume de dados do app.
 
+Os índices são especificados usando a regra `.indexOn`. Confira um exemplo de declaração de índice que indexaria os campos de altura e comprimento de uma lista de dinossauros:
     
 
   
