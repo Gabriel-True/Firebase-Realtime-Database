@@ -104,4 +104,6 @@ Todas as nossas regras ficam em um `nó` denominado “rules”. E como deu para
 
 #### Os nós
  
+Como já vimos, a base de dados começa com o nó “rules”. Mas podemos definir sub-nós para cada nó da Realtime Database. (Meio confuso, eu sei :smile:)
 
+Vamos ver um exemplo. Se a nossa Realtime Database tiver 2 nós: animes e posts.
