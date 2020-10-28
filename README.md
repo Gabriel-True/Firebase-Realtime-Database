@@ -110,11 +110,11 @@ Vamos ver um exemplo. Se a nossa Realtime Database tiver 2 nós: animes e posts.
 
 ```
 {
-    “utilizadores”:{
-          //…lista de utilizadores
+    “animes”:{
+          //…lista de animes
      },
-     “mensagens”:{
-          //…lista de mensagens
+     “posts”:{
+          //…lista de posts
      }
    }
 ```
