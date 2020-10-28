@@ -66,6 +66,19 @@ O Firebase Realtime Database não usa esquemas, o que facilita fazer alteraçõe
 
 De acordo com essas regras, os dados gravados em `/foo/` precisam ser uma string com menos de 100 caracteres:
 
+```
+{
+   "rules": {
+   "foo": {
+      ".validate": "newData.isString() && newData.val().length < 100"
+      }
+    }
+  }
+ ```
+    
+
+  
+
 
 
     
