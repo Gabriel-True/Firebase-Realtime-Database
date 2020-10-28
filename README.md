@@ -84,8 +84,20 @@ No Firebase Realtime Database, ordene e consulte dados. Para pequenos volumes de
 
 Os índices são especificados usando a regra `.indexOn`. Confira um exemplo de declaração de índice que indexaria os campos de altura e comprimento de uma lista de dinossauros:
     
+```
+  {
+     "rules": {
+         "dinosaurs": {
+             ".indexOn": ["height", "length"]
+          }
+       }
+    }
+```
+    
 
   
+
+
 
 
 
