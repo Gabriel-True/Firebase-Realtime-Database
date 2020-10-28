@@ -14,6 +14,10 @@ A sintaxe das regras de segurança do Realtime Database é parecida com a do Jav
 ``````````````
 Descreve se e quando os dados podem ser lidos pelos usuários.
 
+`````````````
+.write
+`````````````
+Descreve se e quando os dados podem ser gravados.
 
 
 
