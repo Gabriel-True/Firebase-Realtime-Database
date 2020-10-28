@@ -31,5 +31,5 @@ Especifica um filho como índice para que a ordenação e consulta sejam possív
 
 ### Autorização
 
-
+A identificação do usuário é apenas uma parte do processo de segurança. Uma vez identificado, é preciso controlar o acesso dele ao banco de dados. Com as regras de segurança do Realtime Database, é possível controlar o acesso de cada usuário. Este conjunto de regras de segurança, por exemplo, permite que qualquer pessoa leia o caminho ` /foo/ `, mas não faça gravações nele:
 
