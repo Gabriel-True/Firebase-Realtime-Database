@@ -100,7 +100,7 @@ As regras de segurança não são nada mais que uma árvore JSON. E em árvores,
 
 ![Imagem 1](https://github.com/Gabriel-True/Firebase-Realtime-Database/blob/main/images.jpeg)
 
-
+Todas as nossas regras ficam em um `nó` denominado “rules”. E como deu para notar, nesse nó temos 2 `chaves`: “.read” e “.write”. Nas nossas regras, os `valores` destas 2 `chaves` têm de ser do tipo booleano para indicar as condições de acesso à base de dados(`true` para permitir o acesso e/ou `false` para negar o acesso).
 
 
  
