@@ -24,5 +24,10 @@ Descreve-se quando os dados podem ser gravados.
 ````````````
 Define a formatação correta do valor, o tipo de dados e se o valor tem atributos filhos.
 
+````````````
+.indexOn
+`````````````
+Especifica um filho como índice para que a ordenação e consulta sejam possíveis.
+
 
 
