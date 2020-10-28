@@ -94,8 +94,9 @@ Os índices são especificados usando a regra `.indexOn`. Confira um exemplo de 
     }
 ```
     
-
+### Conhecendo as Security Rules
   
+As regras de segurança não são nada mais que uma árvore JSON. E em árvores, temos 3 conceitos conhecidos: `nó`, `chave` e `valor`.
 
 
 
