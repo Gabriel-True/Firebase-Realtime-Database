@@ -19,5 +19,10 @@ Descreve-se quando os dados podem ser lidos pelos usuários.
 `````````````
 Descreve-se quando os dados podem ser gravados.
 
+````````````
+.validate
+````````````
+Define a formatação correta do valor, o tipo de dados e se o valor tem atributos filhos.
+
 
 
