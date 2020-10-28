@@ -46,7 +46,7 @@ A identificação do usuário é apenas uma parte do processo de segurança. Uma
 
 As regras ` .read ` e ` .write ` são aplicadas em cascata. Portanto, esse conjunto de regras concede acesso de leitura a qualquer dado no caminho ` /foo/ `, bem como em níveis inferiores, como ` /foo/bar/baz `. Observe que as regras ` .read ` e ` .write ` são aplicadas em níveis superiores no banco de dados. Portanto, o acesso de leitura a ` /foo/bar/baz ` ainda será concedido neste exemplo, mesmo que uma regra no caminho ` /foo/bar/baz ` seja avaliada como falsa.
 
-As regras de segurança do Realtime Database incluem variáveis integradas e funções que permitem referir-se a outros caminhos, carimbos de data/hora do servidor e informações de autenticação, e muito mais. Confira um exemplo da regra que concede acesso de leitura para usuários autenticados em ` /users/<uid>/ `, em que <uid> é o ID do usuário obtido pelo Firebase Authentication.
+As regras de segurança do Realtime Database incluem variáveis integradas e funções que permitem referir-se a outros caminhos, carimbos de data/hora do servidor e informações de autenticação, e muito mais. Confira um exemplo da regra que concede acesso de leitura para usuários autenticados em ` /users/<uid>/ `, em que ` <uid> ` é o ID do usuário obtido pelo Firebase Authentication.
 
 
  
