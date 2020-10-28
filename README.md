@@ -44,7 +44,7 @@ A identificação do usuário é apenas uma parte do processo de segurança. Uma
     }
 ```
 
-As regras ` .read ` e ` .write ` são aplicadas em cascata. Portanto, esse conjunto de regras concede acesso de leitura a qualquer dado no caminho /foo/, bem como em níveis inferiores, como /foo/bar/baz. Observe que as regras .read e .write são aplicadas em níveis superiores no banco de dados. Portanto, o acesso de leitura a /foo/bar/baz ainda será concedido neste exemplo, mesmo que uma regra no caminho /foo/bar/baz seja avaliada como falsa.
+As regras ` .read ` e ` .write ` são aplicadas em cascata. Portanto, esse conjunto de regras concede acesso de leitura a qualquer dado no caminho ` /foo/ `, bem como em níveis inferiores, como ` /foo/bar/baz `. Observe que as regras .read e ` .write ` são aplicadas em níveis superiores no banco de dados. Portanto, o acesso de leitura a ` /foo/bar/baz ` ainda será concedido neste exemplo, mesmo que uma regra no caminho ` /foo/bar/baz ` seja avaliada como falsa.
 
 
  
