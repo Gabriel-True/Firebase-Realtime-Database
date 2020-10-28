@@ -119,7 +119,7 @@ Vamos ver um exemplo. Se a nossa Realtime Database tiver 2 nós: animes e posts.
    }
 ```
 
-       
+ Podemos definir regras diferentes para estes nós, basta criar 2 sub-nós em “rules”:      
 
     
 
