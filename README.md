@@ -76,7 +76,7 @@ De acordo com essas regras, os dados gravados em `/foo/` precisam ser uma string
   }
  ```
     
-
+As regras de validação têm acesso às mesmas funções e variáveis incorporadas que as regras .read e .write. Com elas, você cria regras de validação que reconhecem os dados de qualquer local no banco de dados, as identidades de usuário, o horário do servidor e muito mais.
   
 
 
