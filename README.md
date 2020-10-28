@@ -60,7 +60,7 @@ As regras de segurança do Realtime Database incluem variáveis integradas e fun
      }   
 ```
       
-##### Validação de dados
+### Validação de dados
 
 O Firebase Realtime Database não usa esquemas, o que facilita fazer alterações durante o desenvolvimento. No entanto, quando o app estiver pronto para distribuição, será importante manter a consistência dos dados. A linguagem de regras inclui uma regra .validate, que permite aplicar a lógica de validação usando as mesmas expressões usadas pelas regras .read e .write. A única diferença é que, como as regras de validação não são aplicadas em cascata, todas as regras de validação relevantes são avaliadas como verdadeiras para que a gravação seja permitida.
 
