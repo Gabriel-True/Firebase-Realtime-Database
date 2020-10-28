@@ -87,7 +87,7 @@ Os índices são especificados usando a regra `.indexOn`. Confira um exemplo de 
 ```
   {
      "rules": {
-         "dinosaurs": {
+         "dinossauros": {
              ".indexOn": ["height", "length"]
           }
        }
