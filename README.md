@@ -187,3 +187,14 @@ Diferentemente da variável `data`, esta variável só pode ser acedida quando e
 ### Métodos/Funções adicionais
 
 As variáveis `root`, `data` e `newData` são como se fossem os `DataSnapshot` que nós conhecemos (sim, aqueles que utilizamos quando lemos dados da Realtime Database). Isso significa que eles têm os mesmos métodos que existem em um `DataSnapshot`:
+
+- `val()`
+- `child()`
+- `parent()`
+- `hasChild()`
+- `exists()`
+- `getPriority()`
+
+Mas para além destes métodos, existem mais 3 métodos para verificar o tipo de dado:
+
+
