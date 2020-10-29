@@ -185,3 +185,5 @@ Diferentemente da variável `data`, esta variável só pode ser acedida quando e
  ```
 
 ### Métodos/Funções adicionais
+
+As variáveis `root`, `data` e `newData` são como se fossem os `DataSnapshot` que nós conhecemos (sim, aqueles que utilizamos quando lemos dados da Realtime Database). Isso significa que eles têm os mesmos métodos que existem em um `DataSnapshot`:
