@@ -160,6 +160,8 @@ Podemos utilizar esta variável, por exemplo, para que os utilizadores autentica
 ```
 Com estas regras, o usuário Paulo não tem permissão para aceder aos dados do João.
     
+#### $ (cifrão)
 
+De certeza que você viu este símbolo no exemplo anterior. Tal como no PHP, ele serve para indicar que trata-se de uma variável. A ideia de declarar estas variáveis não é atribuir valores à elas, mas sim utilizar elas para comparar os seus valores com outros, tal como no exemplo anterior onde comparamos se o uid do utilizador que está na base de dados (variável $uid) é igual ao uid do utilizador que fez o login no firebase auth (variável auth.uid).
  
-
+#### root
