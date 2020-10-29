@@ -165,3 +165,9 @@ Com estas regras, o usuário Paulo não tem permissão para aceder aos dados do 
 De certeza que você viu este símbolo no exemplo anterior. Tal como no PHP, ele serve para indicar que trata-se de uma variável. A ideia de declarar estas variáveis não é atribuir valores à elas, mas sim utilizar elas para comparar os seus valores com outros, tal como no exemplo anterior onde comparamos se o `uid` do utilizador que está na base de dados (variável `$uid`) é igual ao uid do utilizador que fez o login no firebase auth (variável `auth.uid`).
  
 #### root
+
+Tal como o nome indica, esta variável corresponde ao nó raiz da nossa base de dados. Através dela podemos aceder à outros dados que estão fora do nó que estamos a tentar ler/escrever.
+
+#### data
+
+Esta variável contem os dados que estão atualmente nesse nó onde pretendemos ler/escrever.
