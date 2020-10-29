@@ -178,7 +178,7 @@ Diferentemente da variável `data`, esta variável só pode ser acedida quando e
 
 ```
 "uid1":{
-  "nome":"Rosário",
+  "nome":"Paulo",
   "visto":"201802282030"
   //timestamp da data em que o utilizador foi visto pela última vez
     }
