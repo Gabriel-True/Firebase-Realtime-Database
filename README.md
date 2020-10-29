@@ -171,3 +171,7 @@ Tal como o nome indica, esta variável corresponde ao nó raiz da nossa base de 
 #### data
 
 Esta variável contem os dados que estão atualmente nesse nó onde pretendemos ler/escrever.
+
+#### newData
+
+Diferentemente da variável `data`, esta variável só pode ser acedida quando estamos a fazer uma escrita (.write) ou validação (.validate). Ela contém os dados que serão escritos nesse nó. Podemos utilizar em conjunto com a variável `data`, por exemplo, quando estamos a atualizar a data em que um utilizador esteve online pela última vez:
