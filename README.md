@@ -125,12 +125,12 @@ Vamos ver um exemplo. Se a nossa Realtime Database tiver 2 nós: animes e posts.
     {
       "rules":{
            "animes":{
-                 ".read":"auth!=null",
+                 ".read":"auth != null",
                  ".write":"auth.uid === 'bZk15h2SU6T3u7FS3TSefJCs0mI3'"
           },
            "posts":{  
-                 ".read":"auth!=null",   
-                 ".write":"auth!=null"
+                 ".read":"auth != null",   
+                 ".write":"auth != null"
                 }
             }
          }
