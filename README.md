@@ -110,10 +110,10 @@ Vamos ver um exemplo. Se a nossa Realtime Database tiver 2 nós: animes e posts.
 
 ```
 {
-    “animes”:{
+    "animes":{
           //…lista de animes
      },
-     “posts”:{
+     "posts":{
           //…lista de posts
      }
    }
@@ -123,14 +123,14 @@ Vamos ver um exemplo. Se a nossa Realtime Database tiver 2 nós: animes e posts.
 
    ```
     {
-      “rules”:{
-           “animes”:{
-                 “.read”:”auth!=null”,
-                 “.write”:”auth!= 'bZk15h2SU6T3u7FS3TSefJCs0mI3'”
+      "rules":{
+           "animes":{
+                 ".read":"auth!=null",
+                 ".write":"auth.uid === 'bZk15h2SU6T3u7FS3TSefJCs0mI3'"
           },
-           “posts”:{  
-                 “.read”:”auth!=null”,   
-                 “.write”:"auth!=null"
+           "posts":{  
+                 ".read":"auth!=null",   
+                 ".write":"auth!=null"
                 }
             }
          }
