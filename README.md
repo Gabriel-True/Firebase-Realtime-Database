@@ -136,7 +136,10 @@ Vamos ver um exemplo. Se a nossa Realtime Database tiver 2 nós: animes e posts.
          }
 ```
 
-No sub-nó `"animes"` definimos que o usuário logado poderá lê o que está escrito, mas somente o usuário que estiver com a uid `"bZk15h2SU6T3u7FS3TSefJCs0mI3"` poderá escrever no database. Como um usuário admin, onde os usuários vão poder lê o que está escrito, mas somente o usuário (admin) que estiver com essa uid poderá escrever/alterar.
+No sub-nó `"animes"` definimos que o usuário logado poderá lê o que está escrito, mas somente o usuário que estiver com a uid `"bZk15h2SU6T3u7FS3TSefJCs0mI3"` poderá escrever no database. Como um usuário admin, onde os usuários vão poder lê o que está escrito, mas somente o usuário (admin) que estiver com essa uid poderá escrever/alterar no database.
+
+No sub-nó `"posts"` definimos que qualquer usuário logado poderá lê e escrever no database.
+
 
 
 
