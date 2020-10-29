@@ -183,3 +183,5 @@ Diferentemente da variável `data`, esta variável só pode ser acedida quando e
   //timestamp da data em que o utilizador foi visto pela última vez
     }
  ```
+
+### Métodos/Funções adicionais
