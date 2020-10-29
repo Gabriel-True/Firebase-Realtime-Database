@@ -150,6 +150,16 @@ Já conhecíamos esta variável, ela representa um utilizador autenticado. Atrav
 
 Podemos utilizar esta variável, por exemplo, para que os utilizadores autenticados acessem apenas os seus próprios dados:
     
+```
+"utilizadores":{
+     "$uid":{
+        ".write":"auth!=null && $uid == auth.uid",
+        ".read":"auth!=null && $uid == auth.uid"
+        }
+      }
+```
 
+    
 
+ 
 
