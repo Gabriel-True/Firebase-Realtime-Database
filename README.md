@@ -140,12 +140,15 @@ No sub-nó `"animes"` definimos que o usuário logado poderá lê o que está es
 
 No sub-nó `"posts"` definimos que qualquer usuário logado poderá lê e escrever no database.
 
+### Os valores
 
+Como já tinha dito, os valores de “.read” e de “.write” devem sempre retornar um `boolean`. E para fazer isso, o Firebase dá-nos acesso à mais algumas variáveis:
 
+#### auth
 
+Já conhecíamos esta variável, ela representa um utilizador autenticado. Através dela podemos acessar 3 outras variáveis: `uid`(id do utilizador autenticado), `provider`(método de login utilizado, pode ser “password”, “facebook”, “google”, “twitter”, “github” ou “anonymous”) e `token` que contém mais variáveis (como por exemplo o nome e email do utilizador autenticado);
 
-
-
+Podemos utilizar esta variável, por exemplo, para que os utilizadores autenticados acessem apenas os seus próprios dados:
     
 
 
