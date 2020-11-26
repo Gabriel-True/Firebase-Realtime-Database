@@ -202,3 +202,5 @@ Mas para além destes métodos, existem mais 3 métodos para verificar o tipo de
 - `isBoolean()`
 
 E é tudo para este artigo. Espero que você tenha aprendido a utilizar as regras de segurança e que comece a implementar nos seus projetos (se ainda não o fazia) para termos aplicações mais seguras. :wink:
+
+### :space_invader: Créditos
