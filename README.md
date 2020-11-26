@@ -208,4 +208,9 @@ E é tudo para este artigo. Espero que você tenha aprendido a utilizar as regra
 Todos esses assuntos foram tirados da própria documentação do firebase e do artigo do Rosário Pereira Fernandes no Medium. Apenas fiz um resumo para uma leitura melhor.
 Confira os links:
 
+Documentação do Firebase:
+https://firebase.google.com/docs/database/security
+
+Artigo do Rosário Pereira no Medium:
+https://medium.com/android-dev-moz/como-funcionam-as-regras-de-seguran%C3%A7a-do-firebase-na-realtime-database-45b28cda14ad
 
