@@ -205,4 +205,7 @@ E é tudo para este artigo. Espero que você tenha aprendido a utilizar as regra
 
 ### :space_invader: Créditos
 
-Todos esses assuntos foram tirados da própria documentação do firebase e do artigo do Rosário Pereira Fernandes no Medium. Co
+Todos esses assuntos foram tirados da própria documentação do firebase e do artigo do Rosário Pereira Fernandes no Medium. Apenas fiz um resumo para uma leitura melhor.
+Confira os links:
+
+
